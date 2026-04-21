@@ -49,6 +49,12 @@
   justify-content: space-between;
 }
 
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 16px; /* Add gap between nav list and user section */
+}
+
 .navList {
   list-style: none;
   display: flex;

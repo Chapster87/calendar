@@ -1,6 +1,9 @@
+"use client"
+
 import Logo from "./_components/logo"
 import Text from "@components/typography/text"
 import Link from "@components/link"
+import UserSection from "./_components/user-section"
 import s from "./styles.module.css"
 
 const NAV = [
@@ -41,6 +44,7 @@ export default function Header() {
                 </li>
               ))}
             </ul>
+            <UserSection />
           </nav>
         </div>
       </header>
