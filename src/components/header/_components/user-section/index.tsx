@@ -16,7 +16,6 @@ import s from "./styles.module.css"
  */
 export default function UserSection() {
   const { data: session } = useSession()
-  console.log("data:", session)
 
   if (session) {
     return (
